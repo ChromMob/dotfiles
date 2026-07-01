@@ -1,0 +1,19 @@
+[[modules.custom]]
+id = "net-health"
+interval-ms = 90000
+command = "/home/chromydaiteq/.config/wayle/scripts/net-health.sh cloudflare.com"
+format = "{{ text }}"
+tooltip-format = "{{ tooltip }}"
+icon-map = {
+  online = "ld-circle-check-symbolic",
+  down = "ld-wifi-off-symbolic",
+  portal = "ld-circle-alert-symbolic",
+  dns-down = "ld-server-crash-symbolic",
+  wan-down = "ld-router-symbolic",
+  gateway-down = "ld-router-symbolic",
+  host-down = "ld-circle-x-symbolic",
+  route-down = "ld-route-off-symbolic",
+  loss = "ld-triangle-alert-symbolic",
+  mtr-failed = "ld-terminal-symbolic",
+}
+
