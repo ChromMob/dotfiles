@@ -1,7 +1,7 @@
 [[modules.custom]]
 id = "net-health"
 interval-ms = 90000
-command = "/home/chromydaiteq/.config/wayle/scripts/net-health.sh cloudflare.com"
+command = "~/.config/wayle/scripts/net-health.sh cloudflare.com"
 format = "{{ text }}"
 tooltip-format = "{{ tooltip }}"
 icon-map = {
