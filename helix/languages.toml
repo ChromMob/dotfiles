@@ -1,0 +1,11 @@
+[[language]]
+name = "vhdl"
+formatter = { command = "sh", args = ["-c", "TMPFILE=$(mktemp); cat > $TMPFILE; vhdlfmt --tab-width=2 $TMPFILE; rm $TMPFILE"] }
+auto-format = true
+[[language]]
+name = "typst"
+formatter = { command = "typstyle" }
+auto-format = true
+[[language]]
+name = "cpp"
+auto-format = true

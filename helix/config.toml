@@ -1,0 +1,14 @@
+theme = "catppuccin_mocha"
+
+[editor]
+line-number = "relative"
+bufferline = "multiple"
+[editor.lsp]
+display-inlay-hints = true
+[editor.cursor-shape]
+insert = "bar"
+[editor.inline-diagnostics]
+cursor-line = "info"
+other-lines = "error"
+max-wrap = 30
+[keys.normal]
